@@ -1,0 +1,707 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "WatchForObstacle Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"WatchForObstacle",
+				"Win64",
+				"Debug",
+				"C:\\Users\\mplut\\Documents\\Unreal Projects\\WatchForObstacle\\WatchForObstacle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "WatchForObstacle Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"WatchForObstacle",
+				"Win64",
+				"Debug",
+				"C:\\Users\\mplut\\Documents\\Unreal Projects\\WatchForObstacle\\WatchForObstacle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"WatchForObstacle Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "WatchForObstacle Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"WatchForObstacle",
+				"Win64",
+				"Debug",
+				"C:\\Users\\mplut\\Documents\\Unreal Projects\\WatchForObstacle\\WatchForObstacle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "WatchForObstacle Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"WatchForObstacle",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\mplut\\Documents\\Unreal Projects\\WatchForObstacle\\WatchForObstacle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "WatchForObstacle Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"WatchForObstacle",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\mplut\\Documents\\Unreal Projects\\WatchForObstacle\\WatchForObstacle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"WatchForObstacle Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "WatchForObstacle Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"WatchForObstacle",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\mplut\\Documents\\Unreal Projects\\WatchForObstacle\\WatchForObstacle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "WatchForObstacle Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"WatchForObstacle",
+				"Win64",
+				"Development",
+				"C:\\Users\\mplut\\Documents\\Unreal Projects\\WatchForObstacle\\WatchForObstacle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "WatchForObstacle Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"WatchForObstacle",
+				"Win64",
+				"Development",
+				"C:\\Users\\mplut\\Documents\\Unreal Projects\\WatchForObstacle\\WatchForObstacle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"WatchForObstacle Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "WatchForObstacle Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"WatchForObstacle",
+				"Win64",
+				"Development",
+				"C:\\Users\\mplut\\Documents\\Unreal Projects\\WatchForObstacle\\WatchForObstacle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "WatchForObstacle Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"WatchForObstacle",
+				"Win64",
+				"Test",
+				"C:\\Users\\mplut\\Documents\\Unreal Projects\\WatchForObstacle\\WatchForObstacle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "WatchForObstacle Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"WatchForObstacle",
+				"Win64",
+				"Test",
+				"C:\\Users\\mplut\\Documents\\Unreal Projects\\WatchForObstacle\\WatchForObstacle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"WatchForObstacle Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "WatchForObstacle Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"WatchForObstacle",
+				"Win64",
+				"Test",
+				"C:\\Users\\mplut\\Documents\\Unreal Projects\\WatchForObstacle\\WatchForObstacle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "WatchForObstacle Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"WatchForObstacle",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\mplut\\Documents\\Unreal Projects\\WatchForObstacle\\WatchForObstacle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "WatchForObstacle Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"WatchForObstacle",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\mplut\\Documents\\Unreal Projects\\WatchForObstacle\\WatchForObstacle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"WatchForObstacle Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "WatchForObstacle Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"WatchForObstacle",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\mplut\\Documents\\Unreal Projects\\WatchForObstacle\\WatchForObstacle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "WatchForObstacle HoloLens Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"WatchForObstacle",
+				"HoloLens",
+				"Debug",
+				"C:\\Users\\mplut\\Documents\\Unreal Projects\\WatchForObstacle\\WatchForObstacle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "WatchForObstacle HoloLens Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"WatchForObstacle",
+				"HoloLens",
+				"Debug",
+				"C:\\Users\\mplut\\Documents\\Unreal Projects\\WatchForObstacle\\WatchForObstacle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"WatchForObstacle HoloLens Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "WatchForObstacle HoloLens Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"WatchForObstacle",
+				"HoloLens",
+				"Debug",
+				"C:\\Users\\mplut\\Documents\\Unreal Projects\\WatchForObstacle\\WatchForObstacle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "WatchForObstacle HoloLens DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"WatchForObstacle",
+				"HoloLens",
+				"DebugGame",
+				"C:\\Users\\mplut\\Documents\\Unreal Projects\\WatchForObstacle\\WatchForObstacle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "WatchForObstacle HoloLens DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"WatchForObstacle",
+				"HoloLens",
+				"DebugGame",
+				"C:\\Users\\mplut\\Documents\\Unreal Projects\\WatchForObstacle\\WatchForObstacle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"WatchForObstacle HoloLens DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "WatchForObstacle HoloLens DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"WatchForObstacle",
+				"HoloLens",
+				"DebugGame",
+				"C:\\Users\\mplut\\Documents\\Unreal Projects\\WatchForObstacle\\WatchForObstacle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "WatchForObstacle HoloLens Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"WatchForObstacle",
+				"HoloLens",
+				"Development",
+				"C:\\Users\\mplut\\Documents\\Unreal Projects\\WatchForObstacle\\WatchForObstacle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "WatchForObstacle HoloLens Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"WatchForObstacle",
+				"HoloLens",
+				"Development",
+				"C:\\Users\\mplut\\Documents\\Unreal Projects\\WatchForObstacle\\WatchForObstacle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"WatchForObstacle HoloLens Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "WatchForObstacle HoloLens Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"WatchForObstacle",
+				"HoloLens",
+				"Development",
+				"C:\\Users\\mplut\\Documents\\Unreal Projects\\WatchForObstacle\\WatchForObstacle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "WatchForObstacle HoloLens Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"WatchForObstacle",
+				"HoloLens",
+				"Test",
+				"C:\\Users\\mplut\\Documents\\Unreal Projects\\WatchForObstacle\\WatchForObstacle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "WatchForObstacle HoloLens Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"WatchForObstacle",
+				"HoloLens",
+				"Test",
+				"C:\\Users\\mplut\\Documents\\Unreal Projects\\WatchForObstacle\\WatchForObstacle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"WatchForObstacle HoloLens Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "WatchForObstacle HoloLens Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"WatchForObstacle",
+				"HoloLens",
+				"Test",
+				"C:\\Users\\mplut\\Documents\\Unreal Projects\\WatchForObstacle\\WatchForObstacle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "WatchForObstacle HoloLens Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"WatchForObstacle",
+				"HoloLens",
+				"Shipping",
+				"C:\\Users\\mplut\\Documents\\Unreal Projects\\WatchForObstacle\\WatchForObstacle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "WatchForObstacle HoloLens Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"WatchForObstacle",
+				"HoloLens",
+				"Shipping",
+				"C:\\Users\\mplut\\Documents\\Unreal Projects\\WatchForObstacle\\WatchForObstacle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"WatchForObstacle HoloLens Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "WatchForObstacle HoloLens Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"WatchForObstacle",
+				"HoloLens",
+				"Shipping",
+				"C:\\Users\\mplut\\Documents\\Unreal Projects\\WatchForObstacle\\WatchForObstacle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "WatchForObstacleEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"WatchForObstacleEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\mplut\\Documents\\Unreal Projects\\WatchForObstacle\\WatchForObstacle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "WatchForObstacleEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"WatchForObstacleEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\mplut\\Documents\\Unreal Projects\\WatchForObstacle\\WatchForObstacle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"WatchForObstacleEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "WatchForObstacleEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"WatchForObstacleEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\mplut\\Documents\\Unreal Projects\\WatchForObstacle\\WatchForObstacle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "WatchForObstacleEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"WatchForObstacleEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\mplut\\Documents\\Unreal Projects\\WatchForObstacle\\WatchForObstacle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "WatchForObstacleEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"WatchForObstacleEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\mplut\\Documents\\Unreal Projects\\WatchForObstacle\\WatchForObstacle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"WatchForObstacleEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "WatchForObstacleEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"WatchForObstacleEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\mplut\\Documents\\Unreal Projects\\WatchForObstacle\\WatchForObstacle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "WatchForObstacleEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"WatchForObstacleEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\mplut\\Documents\\Unreal Projects\\WatchForObstacle\\WatchForObstacle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "WatchForObstacleEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"WatchForObstacleEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\mplut\\Documents\\Unreal Projects\\WatchForObstacle\\WatchForObstacle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"WatchForObstacleEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "WatchForObstacleEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"WatchForObstacleEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\mplut\\Documents\\Unreal Projects\\WatchForObstacle\\WatchForObstacle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		}
+	]
+}

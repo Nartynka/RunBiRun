@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "WatchForObstacle",
+			"Path": "C:\\Users\\mplut\\Documents\\Unreal Projects\\WatchForObstacle\\Source\\WatchForObstacle.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "WatchForObstacleEditor",
+			"Path": "C:\\Users\\mplut\\Documents\\Unreal Projects\\WatchForObstacle\\Source\\WatchForObstacleEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

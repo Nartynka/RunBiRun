@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "WatchForObstacleEditor Editor Win64 Development (WatchForObstacle)",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "C:\\Users\\mplut\\Documents\\Unreal Projects\\WatchForObstacle\\.vscode\\compileCommands_WatchForObstacle.json",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        },
+        {
+            "name": "Win32",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "C:\\Users\\mplut\\Documents\\Unreal Projects\\WatchForObstacle\\.vscode\\compileCommands_Default.json",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
