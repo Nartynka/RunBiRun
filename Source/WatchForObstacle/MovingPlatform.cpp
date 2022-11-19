@@ -15,13 +15,20 @@ AMovingPlatform::AMovingPlatform()
 void AMovingPlatform::BeginPlay()
 {
 	Super::BeginPlay();
-	
+
 }
 
 // Called every frame
 void AMovingPlatform::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-	
+
+	SetActorRotation(GetActorRotation() + FRotator(0, i, 0));
+	SetActorLocation(GetActorLocation() + FVector(PlatformVelocity*DeltaTime));
+	if (GetActorLocation().Y > -1000 || GetActorLocation().Y < -2300)
+	{
+		i = -i;
+		PlatformVelocity = -PlatformVelocity;
+	}
 }
 
