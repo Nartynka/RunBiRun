@@ -24,6 +24,7 @@ void AMovingPlatform::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 
 	MovePlatform(DeltaTime);
+	RotatePlatform(DeltaTime);
 }
 
 void AMovingPlatform::MovePlatform(float DeltaTime)
@@ -47,4 +48,9 @@ bool AMovingPlatform::ShouldReturn() const
 float AMovingPlatform::GetDistanceMoved() const
 {
 	return FVector::Dist(GetActorLocation(), StartLocation);
+}
+
+void AMovingPlatform::RotatePlatform(float DeltaTime)
+{
+	AddActorLocalRotation(RotationVelocity * DeltaTime);
 }
