@@ -3,3 +3,4 @@ Binaries/*
 Intermediate/Build/*
 Saved/Config/CrashReportClient/*
 Saved/Logs/*
+.vscode/*
