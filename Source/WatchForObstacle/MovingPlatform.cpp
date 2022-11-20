@@ -23,12 +23,12 @@ void AMovingPlatform::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	SetActorRotation(GetActorRotation() + FRotator(0, i, 0));
+	// SetActorRotation(GetActorRotation() + FRotator(0, i, 0));
 	SetActorLocation(GetActorLocation() + FVector(PlatformVelocity*DeltaTime));
 
 	if (FVector::Dist(GetActorLocation(), StartLocation) > MoveDistance)
 	{
-		i = -i;
+		// i = -i;
 		FVector MoveDirection = PlatformVelocity.GetSafeNormal();
 		StartLocation = StartLocation + MoveDirection * MoveDistance;
 		SetActorLocation(StartLocation);
